@@ -15,18 +15,17 @@ Este laboratorio consiste en desarrollar una aplicación web utilizando Python, 
 ## 3. Estructura del proyecto
 
 ```text
- laboratorio-las/
-   ├──  templates/
-   │   ├──  login.html
-   │   └──  registro.html
-   ├──  venv/
-    ├──  app.py
-    ├──  crearDB.py
-    ├──  detector.py
-    ├──  eventos.log
-    ├──  respuesta.log
-    └──  usuarios.db
- README.md
+📁 laboratorio-las/
+   ├── 📁 templates/
+   │   ├── 📄 login.html
+   │   └── 📄 registro.html
+   ├── 📄 app.py
+   ├── 📄 crearDB.py
+   ├── 📄 detector.py
+   ├── 📄 eventos.log
+   ├── 📄 respuesta.log
+   └── 📄 usuarios.db
+📄 README.md
 ```
 
 ## 4. Ejecución del proyecto
