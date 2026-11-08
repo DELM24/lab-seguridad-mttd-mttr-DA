@@ -14,41 +14,47 @@ Este laboratorio consiste en desarrollar una aplicación web utilizando Python, 
 
 ## 3. Estructura del proyecto
 
-
-📁 laboratorio-las/
-   ├── 📁 templates/
-   │   ├── 📄 login.html
-   │   └── 📄 registro.html
-   ├── 📁 venv/                
-   ├── 📄 app.py
-   ├── 📄 crearDB.py
-   ├── 📄 detector.py
-   ├── 📄 eventos.log
-   ├── 📄 respuesta.log
-   └── 📄 usuarios.db
-📄 README.md                   
-
+```text
+ laboratorio-las/
+   ├──  templates/
+   │   ├──  login.html
+   │   └──  registro.html
+   ├──  venv/
+    ├──  app.py
+    ├──  crearDB.py
+    ├──  detector.py
+    ├──  eventos.log
+    ├──  respuesta.log
+    └──  usuarios.db
+ README.md
+```
 
 ## 4. Ejecución del proyecto
 
-**Paso 1. **Clonar el repositorio.
+**Paso 1.** Clonar el repositorio.
 
+```bash
 git clone https://github.com/DELM24/lab-seguridad-mttd-mttr-DA.git
+```
 
+**Paso 2.** Ingresar al proyecto.
 
-**Paso 2. **Ingresar al proyecto.
-
+```bash
 cd lab-seguridad-mttd-mttr-DA/laboratorio-las
+```
 
+**Paso 3.** Crear y activar el entorno virtual e instalar dependencias.
 
-**Paso 3. **Crear y activar el entorno virtual e instalar dependencias.
-
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install flask
 pip show flask
+```
 
+**Paso 4.** Ejecutar la aplicación.
 
-**Paso 4. **Ejecutar la aplicación.
-
+```bash
 python app.py
+```
+
